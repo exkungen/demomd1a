@@ -1,0 +1,122 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Index Pagina</title>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,200,100&subset=latin,cyrillic" rel="stylesheet">
+    <link rel=stylesheet href="responsive.css" >
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  </head>
+  <body>
+    <div id="page_effect" style="display:none;">
+   
+      
+    <!-- // [START headline] -->
+
+      <header>
+           <nav>
+    <ul>
+        <li><img class="logo" src="logo.png" alt="logo" height="48px"></li>
+      <li ><a class="active" href="index.html">Home</a></li>
+    <li><a href="index2.html">Over mij</a></li>
+    <li><a href="index3.html">Huiswerk</a></li>
+    <li><a href="index4.html">Contact</a></li>
+</ul>
+            </nav>
+        </header>
+       
+      </div>
+    
+    <!-- // [END headline] -->
+
+    <!-- // [START section1] -->
+    <div id="section1">
+      <div class="container">
+          <br>
+          <br>
+         
+        <h2>Wie ben ik?</h2>
+          <p>"Als ik val sta ik op,als ik sta val ik op."<p>
+        <p>Ik ben Menouer Nobach een enthousiasthe leerling van het Media College Amsterdam.</p>
+        <p>Dit zijn de programeer en opmaaktalen die ik tot nu toe ken:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Java</li>
+          <li>PHP</li>
+            <li>SQL</li>
+        </ul>
+
+        <br>
+      </div>
+    </div>
+    <!-- // [END section1] -->
+
+    <!-- // [START section2] -->
+    <div id="section2">
+      <div class="container">
+          
+        <h2>Mijn front-end Docenten.</h2>
+        <div class="images">
+          <img class="docenten" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANlAAAAJDZiNjJjZWFkLWM2YzMtNDYxMy05ZjkyLTNkZDRhYjliZWRhOA.jpg" alt="Menouer Nobach">
+          <img class="docenten" src="https://blanken5.home.xs4all.nl/webedit/phsp_imrd/oefening/fiesole.jpg" alt="Menouer Nobach">
+          <img class="docenten" src="https://pbs.twimg.com/profile_images/378800000255963105/75eb70c23355121a0ae062f9ef9fddb0_400x400.jpeg" alt="Menouer Nobach">
+        </div>
+        <br>
+          
+      </div>
+    </div>
+    <!-- // [END section2] -->
+
+    <!-- // [START section3] -->
+ 
+
+
+        
+    <!-- // [END section3] -->
+
+    <br>
+      
+      
+      
+    <footer>
+      <div class="container">
+        <p>	&#xA9;Menouer Nobach. All rights reserved.</p>
+          	 <div class="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+            </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- // [END footer] -->
+
+    <script type="text/javascript">
+      function init() {
+        window.matchMedia("(max-width: 600px)").addListener(hitMQ);
+      }
+
+      function hitMQ(evt) {
+        sampleCompleted("GettingStarted-ContentWithStyles");
+      }
+
+      init();
+
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$('#page_effect').fadeIn(2000);
+
+});
+
+</script>
+  </body>
+</html>
